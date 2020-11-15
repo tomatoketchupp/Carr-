@@ -1,0 +1,33 @@
+.grid-2 {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-areas: 
+    "premier premier second second"
+    "premier premier trois trois"
+    "huit neuf neuf dix"
+    "huit neuf neuf dix";
+}
+
+.block-5 {
+    grid-area: "premier";
+}
+
+.block-6 {
+    grid-area: "second";
+}
+
+.block-7 {
+    grid-area: "trois";
+}
+
+.block-8 {
+    grid-area: "huit";
+}
+
+.block-9 {
+    grid-area: "neuf";
+}
+
+.block-10 {
+    grid-area: "dix";
+}

@@ -1,0 +1,33 @@
+body {
+    margin: 0%;
+}
+
+.bloc1 {
+    min-height: 10vh;
+    display: flex;
+    background-color: rgb(153, 0,2);
+    background-repeat: no-repeat;
+    background-size: cover;
+    align-items: center;
+    
+}
+
+.chaine {
+    margin-left: 28vw;
+}
+
+.Youtube {
+    color: white;
+    font-size: 20px;
+}
+.titre {
+    margin-left: 45vw;
+}
+
+.lyrics {
+    border: 3px bold gold;
+    padding: 10px;
+    font-size: 20px;
+    color: white;
+}
+

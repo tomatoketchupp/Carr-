@@ -1,0 +1,64 @@
+.debut {
+    width: auto;
+    background-color: lightblue;
+    margin-bottom: 50px;
+    display: flex;
+}
+body {
+    margin: 0%;
+    font-family: Arial;
+    background-color: lightpink;
+}
+
+.parent {
+    display: flex;
+    border-style: solid;
+    width: auto;
+    margin-bottom: 1cm;
+}
+
+.p1 {
+    border-style: solid;
+    margin: 5px;
+}
+
+.p2 {
+    border-style: solid;
+    margin: 5px;
+
+}
+
+.p3 {
+    border-style: solid;
+    margin: 5px;
+}
+
+.BOUH {
+    display: flex;
+    width: auto;
+    background-color: lightblue;
+    min-height: 5cm;
+}
+.largeur {
+    color: darkgreen;
+    border: 5px solid black;
+    margin: auto;
+    background-color: brown;
+}
+
+.big {
+    background-color: lightgrey;
+    width: auto;
+    min-height: 20cm;
+    display: flex;
+    margin-top: 1cm;
+}
+
+.enfant {
+    background-color: orange;
+    border: 5px solid black;
+    width: auto;
+    color: red;
+    margin: auto;
+    font-size: 2cm;
+}

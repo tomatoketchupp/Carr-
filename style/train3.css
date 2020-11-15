@@ -1,0 +1,47 @@
+body { 
+    margin: 0%;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.tete {
+    display: flex;
+}
+
+.soustete {
+    background-color: magenta;
+    width: 100%;
+    min-height: 1cm;
+    color: white;
+    padding-top: 20px;
+    padding-left: 50px;
+    align-items: center;
+}
+
+.parent {
+background-color: #F0F0F0;
+min-height: 75vh;
+border: 1px solid #F0F0F0;
+flex-direction: column;
+display: flex;
+}
+
+.block {
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+    background-color: white;
+    margin: auto;  
+    padding: 120px;
+    font-size: 20px;  
+}
+
+.block2 {
+    background-color: white;
+    margin: auto;
+    box-shadow: 0 2px 5px rgba(0,0,0,.26);
+    padding: 120px;
+    font-size: 20px;
+}
+.side {
+    border: 5px dotted black;
+    display: flex;
+    flex-direction: column  ;
+}
